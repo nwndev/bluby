@@ -19,7 +19,7 @@ npm install express // menginstal modul express, instal jika diperlukan.
 ```
 #### yarn
 ```js
-yarn init // membuat file yarn.lock
+yarn init
 
 yarn install aoi.js // menginstal modul aoi.js, mungkin akan memakan waktu yang cukup lama untuk menginstal.
 yarn install discord.js // menginstal modul discord.js, instal jika diperlukan.
