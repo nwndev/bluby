@@ -1,0 +1,7 @@
+module.exports ={
+    name:"djseval",
+    aliases:'djs',
+    code:`
+$djsEval[let d=require('discord.js'),{inspect}=require('util');(async()=>{let r;try{r=await eval(args.join(' '))}catch(o){r=o}let f=('object'==typeof r?inspect(r):r)+'',s=f.match(/[\\s\\S]{1,4087}/g)||[''],t=(a,b,c,e)=>new d.MessageButton().setEmoji(a).setStyle(b).setCustomId(c).setDisabled(e),p=(a=!1,b=!1,c=!1)=>[new d.MessageActionRow().addComponents(t('⬅️','PRIMARY','back',a),t('✖️','DANGER','delete',b),t('➡️','PRIMARY','forward',c))],g=0,z=s.map((a,b)=>new d.MessageEmbed().setTitle('Evaluated').setColor('78AAD8').setDescription(d.Formatters.codeBlock('ts',a)).setFooter({text:\`Page $\{b+1}/$\{s.length} • $\{typeof r} • $\{f.length}\`})),v=await message.channel.send({embeds:[z[g]],components:p(!0,!1,z.length<2)});v.createMessageComponentCollector({idle:3e4}).on('collect',async a=>a.user!==message.author?a.reply({content:\`Only $\{message.author.toString()} can use the buttons!\`,ephemeral:!0}):(a.deferUpdate().catch(()=>{}),'delete'===a.customId)?v.delete().catch(()=>{}):(g+='forward'===a.customId?1:-1,v.edit({components:p(0===g,!1,!z[g+1]),embeds:[z[g]]}).catch(()=>{}))).on('end',()=>v.edit({components:[p(!0,!0,!0)]}).catch(()=>{}))})()]
+$onlyForIDs[$botOwnerID;]
+`}
