@@ -25,3 +25,14 @@ yarn install aoi.js // menginstal modul aoi.js, mungkin akan memakan waktu yang 
 yarn install discord.js // menginstal modul discord.js, instal jika diperlukan.
 yarn install express // menginstal modul express, instal jika diperlukan.
 ```
+# Informasi
+- Taruh token bot mu di `config.json`, atau kamu juga bisa menggunakan Environment Variable (`.env`).
+- Host di Replit jika hanya ingin mengetest Bluby.
+- Jika ingin mengubah, menambahkan file atau mengembangkan Bluby hingga mencapai jumlah server yang banyak, jangan lupa kasih kredit ya! wkwkwk
+## Cara untuk memberikan kredit
+- Taruh username Discord saya (nwn#0924) di command seperti `info`, `help`, atau di `About Me` bot.
+- Bisa juga kamu taruh repository ini di command sepert `info`, `help`, dan di `About Me` bot.
+- Jika kamu ketahuan tidak memberi kredit, ya.. gapapa sih sebenernya :sweat_smile: Tapi kalo mau support taruh aja.
+## Support Developer
+Donate via [trakteer](https://trakteer.id/nwnn), Nitro juga diterima kok :sweat_smile:
+- Memberi :sparkles: **Star** :star: pada Repo ini juga membantu Developer lho!
