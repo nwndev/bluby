@@ -8,20 +8,8 @@ prefix: "$getServerVar[prefix]",
 intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS"]
 })
 
-bot.functionManager.createCustomFunction({
-name : '$blubyEmbedStyle',
-params : ['title','desc'],
-type : 'aoi.js',
-code : ` 
-$description[{desc}]
-$addTimestamp
-$thumbnail[$authorAvatar]
-$title[{title}]
-`
-})
-
 bot.status({
-  text: "B!help • v1.0",
+  text: "B!help • v1.0.3",
   type: "WATCHING",
   time: 24
 })
@@ -51,25 +39,6 @@ bot.command({
     code:`
 Guild's Shard: $shardID
 `})
-
-bot.readyCommand({
-channel:"889766192154284075",
-code:`$djsEval[const express = require('express')
-
-const Topgg = require('@top-gg/sdk')
-
-const app = express() 
-
-const webhook = new Topgg.Webhook('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk5Nzk5MzA5MTYxMDk3NjI5NiIsImJvdCI6dHJ1ZSwiaWF0IjoxNjU5OTM0MjI3fQ.nCSvy-k7XrAHMuQelMH-daiErPgX4otV8uatGjLZbcs')
-
-app.post('/dblwebhook', webhook.listener(vote => {
-
-client.channels.cache.get("889766192154284075").send(vote.user) 
-
-})) 
-
-app.listen(20109)`
-    })
 
 let refresh = Math.floor(Math.random() * 10800000)+3600000;
 
@@ -113,7 +82,7 @@ $setVar[itemtradebox;$randomText[padi;sampah;botol;emas;batu]]
 $setVar[lastboxrefresh;$dateStamp]
 $setVar[itemtradedisplay;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$randomText[padi;sampah;botol;emas;batu];padi;$getVar[e_padi] Padi];sampah;$getVar[e_grbg] Sampah];botol;$getVar[e_botl] Botol];emas;$getVar[e_emas] Emas];batu;:rock: Batu]]
 `,
-    channel:"998097354806804480",
+    channel:"CHANNEL_ID",
     executeOnStartup: true,
     every: refreshbox
 })
@@ -164,7 +133,7 @@ $endif
 $setVar[lastrefresh;$dateStamp]
 $setVar[blypto_refresh;$random[3600000;10800000]]
 `,
-    channel:"998097354806804480",
+    channel:"CHANNEL_ID",
     executeOnStartup: true,
     every: refresh
 })
@@ -180,11 +149,6 @@ bot.readyCommand({
     channel: "",
     code: `$log[Ready on $userTag[$clientID] | $getBotInvite]`
 })
-
-let hello = "hello, world!";
-let finish = hello + hello
-
-console.warn(finish)
 
 bot.variables(require(`./variables/variables.js`))
 
