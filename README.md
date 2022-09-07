@@ -1,12 +1,14 @@
 # Bluby
 Bot Economy Discord yang kompleks dan seru hanya ada di Bluby! Dibuat dengan framework `aoi.js`.
-- `Kamu bisa hover teks yang berwarna biru untuk melihat info tentang teks tersebut. (hyperlink)`
+
+`Kamu bisa hover teks yang berwarna biru untuk melihat info tentang teks tersebut. (hyperlink)`
 ## Tentang Bluby
 **Bluby** adalah Bot Economy Discord yang dibuat dengan framework `aoi.js`. Bluby berisikan command-command economy yang pokoknya seru abis! Tujuannya adalah mencari [Bcash](https://bluby.nwndev.repl.co 'Mata uang in-game Bluby') sebanyak-banyak nya dan berlomba-lomba siapa orang terkaya di Bluby! Jangan lupa hidupkan intent `message_content` di [Discord Developer Portal](https://discord.com/developers/applications) jika tidak ingin menggunakan slash command.
 ## Modul, Library, atau Framework yang digunakan
 - [`aoi.js`](https://www.npmjs.com/package/aoi.js 'The most advanced string-based package to create a Discord Bot fast and powerful.') Karena mudah digunakan,
 - [`discord.js`](https://www.npmjs.com/package/discord.js 'A powerful Node.js module that allows you to easily interact with the Discord API.') Jika diperlukan,
 - Dan kamu juga bisa menggunakan modul [`express`](https://www.npmjs.com/package/express/ 'Fast, unopinionated, minimalist web framework for node.') jika diperlukan, biasanya digunakan untuk membuat web dengan menggunakan bahasa pemrograman [JavaScript](https://www.javascript.com/). Kebanyakan orang memakai modul ini untuk meng-host bot mereka dengan [uptimerobot.com](https://uptimerobot.com) jika menggunakan [Replit](https://replit.com).
+
 Node.js 16.6.0 atau yang lebih baru diperlukan untuk menginstal modul di atas.
 ### Instalasi Modul
 #### npm
