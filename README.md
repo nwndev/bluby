@@ -36,3 +36,5 @@ yarn install express // menginstal modul express, instal jika diperlukan.
 ## Support Developer
 Donate via [trakteer](https://trakteer.id/nwnn), Nitro juga diterima kok :sweat_smile:
 - Memberi :sparkles: **Star** :star: pada Repo ini juga membantu Developer lho!
+# Database
+Untuk database, saya (developer) gak ngerti apa-apa :sweat_smile: Kamu bisa setup sendiri database nya..
