@@ -24,7 +24,7 @@ bot.status({
   text: "Ada event yang aktif! Silahkan cek \'B!event\'.",
   type: "WATCHING",
   time: 24
-})
+}) // event 17an yang kadaluarsa, silahkan kalo mau dihapus status dan command² eventnya.
 
 bot.command({
     name:"eval",
@@ -41,9 +41,7 @@ Guild's Shard: $shardID
 `})
 
 let refresh = Math.floor(Math.random() * 10800000)+3600000;
-
 let refreshbox = Math.floor(Math.random() * 3600000)+1800000;
-
 let refreshseed = Math.floor(Math.random() * 600000)+300000;
 
 bot.loopCommand({
