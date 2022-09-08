@@ -1,6 +1,5 @@
 # Bluby
-Bot Economy Discord yang kompleks dan seru hanya ada di Bluby! Dibuat dengan framework `aoi.js`.
-
+Bot Economy Discord yang kompleks dan seru hanya ada di Bluby! Dibuat dengan framework `aoi.js`.  
 `Kamu bisa hover teks yang berwarna biru untuk melihat info tentang teks tersebut. (hyperlink)`
 ## Tentang Bluby
 **Bluby** adalah Bot Economy Discord yang dibuat dengan framework `aoi.js`. Bluby berisikan command-command economy yang pokoknya seru abis! Tujuannya adalah mencari [Bcash](https://bluby.nwndev.repl.co 'Mata uang in-game Bluby') sebanyak-banyak nya dan berlomba-lomba siapa orang terkaya di Bluby! Jangan lupa hidupkan intent `message_content` di [Discord Developer Portal](https://discord.com/developers/applications) jika tidak ingin menggunakan slash command.
@@ -36,8 +35,7 @@ yarn install express // menginstal modul express, instal jika diperlukan.
 - Bisa juga kamu taruh repository ini di command sepert `info`, `help`, dan di `About Me` bot.
 - Jika kamu ketahuan tidak memberi kredit, ya.. gapapa sih sebenernya :sweat_smile: Tapi kalo mau support taruh aja.
 ## Support Developer
-Donate via [trakteer](https://trakteer.id/nwnn), Rp.5,000 tuh berharga bat aseli
-
+Donate via [trakteer](https://trakteer.id/nwnn), Rp.5,000 tuh berharga bat aseli  
 Nitro juga diterima kok :smirk:
 - Memberi :sparkles: **Star** :star: pada Repo ini juga membantu Developer lho!
 # Database
