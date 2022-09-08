@@ -1,4 +1,4 @@
-# Bluby
+# 🔹 Bluby
 Bot Economy Discord yang kompleks dan seru hanya ada di Bluby! Dibuat dengan framework `aoi.js`.  
 > Kamu bisa hover teks yang berwarna biru atau bisa disebut hyperlink untuk melihat informasi tentang teks tersebut (hanya untuk desktop). Tidak semua hyperlink ada informasinya.
 ## Tentang Bluby
@@ -9,7 +9,7 @@ Bot Economy Discord yang kompleks dan seru hanya ada di Bluby! Dibuat dengan fra
 - Dan kamu juga bisa menggunakan modul [`express`](https://www.npmjs.com/package/express/ 'Fast, unopinionated, minimalist web framework for node.') jika diperlukan, biasanya digunakan untuk membuat web dengan menggunakan bahasa pemrograman [JavaScript](https://www.javascript.com/). Kebanyakan orang memakai modul ini untuk meng-host bot mereka dengan [uptimerobot.com](https://uptimerobot.com) jika menggunakan [Replit](https://replit.com).
 
 Node.js 16.6.0 atau yang lebih baru diperlukan untuk menginstal modul di atas.
-### Instalasi Modul
+### 📥 Instalasi Modul
 #### npm
 ```js
 npm init -y // membuat file package.json
@@ -26,17 +26,17 @@ yarn install aoi.js // menginstal modul aoi.js, mungkin akan memakan waktu yang 
 yarn install discord.js // menginstal modul discord.js, instal jika diperlukan.
 yarn install express // menginstal modul express, instal jika diperlukan.
 ```
-# Informasi
+# ℹ️ Informasi
 - Taruh token bot mu di `config.json`, atau kamu juga bisa menggunakan Environment Variable (`.env`).
 - Host di Replit jika hanya ingin mengetest Bluby.
 - Jika ingin mengubah, menambahkan file atau mengembangkan Bluby hingga mencapai jumlah server yang banyak, jangan lupa kasih kredit ya! wkwkwk
-## Cara untuk memberikan kredit
+## 🌌 Cara untuk memberikan kredit
 - Taruh username Discord saya (nwn#0924) di command seperti `info`, `help`, atau di `About Me` bot.
 - Bisa juga kamu taruh repository ini di command sepert `info`, `help`, dan di `About Me` bot.
 - Jika kamu ketahuan tidak memberi kredit, ya.. gapapa sih sebenernya :sweat_smile: Tapi kalo mau support taruh aja.
-## Support Developer
+## 👍 Support Developer
 Donate via [trakteer](https://trakteer.id/nwnn), Rp.5,000 tuh berharga bat aseli  
 Nitro juga diterima kok :smirk:
 - Memberi :sparkles: **Star** :star: pada Repo ini juga membantu Developer lho!
-# Database
+# 📁 Database
 Untuk database, saya (developer) gak ngerti apa-apa :sweat_smile: Kamu bisa setup sendiri database nya..
