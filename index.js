@@ -40,6 +40,8 @@ bot.command({
 Guild's Shard: $shardID
 `})
 
+/*
+
 let refresh = Math.floor(Math.random() * 10800000)+3600000;
 let refreshbox = Math.floor(Math.random() * 3600000)+1800000;
 let refreshseed = Math.floor(Math.random() * 600000)+300000;
@@ -55,7 +57,7 @@ $getVar[e_seed] Harga biji-bijian telah berubah menjadi $getVar[emoji] \`$number
 $setVar[seedprice;$random[1000;5000]]
 $setVar[refreshseedtime;$dateStamp]
 `,
-    channel:"998097354806804480",
+    channel:"CHANNEL_ID",
     executeOnStartup: true,
     every: refreshseed
 })
@@ -135,6 +137,8 @@ $setVar[blypto_refresh;$random[3600000;10800000]]
     executeOnStartup: true,
     every: refresh
 })
+/*
+// diatas ini adalah command² yang bakal execute pada waktu yang diberikan, kita gunakan untuk system seperti cryptocurrency yang dimana harga item akan naik atau turun. hapus tanda "/*" yang berada di atas dan dibawah code command tersebut.
 
 bot.onMessage()
 bot.onGuildJoin()
