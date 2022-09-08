@@ -138,7 +138,7 @@ $setVar[blypto_refresh;$random[3600000;10800000]]
     every: refresh
 })
 */
-// diatas ini adalah command² yang bakal execute pada waktu yang diberikan, kita gunakan untuk system seperti cryptocurrency yang dimana harga item akan naik atau turun. hapus tanda "/*" yang berada di atas dan dibawah code command tersebut.
+// diatas ini adalah command² yang bakal execute pada waktu yang diberikan, kita gunakan untuk system seperti cryptocurrency yang dimana harga item akan naik atau turun. hapus tanda "/*" dan "*/" yang berada di atas dan dibawah code command tersebut.
 
 bot.onMessage()
 bot.onGuildJoin()
