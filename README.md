@@ -1,6 +1,6 @@
 # Bluby
 Bot Economy Discord yang kompleks dan seru hanya ada di Bluby! Dibuat dengan framework `aoi.js`.  
-`Kamu bisa hover teks yang berwarna biru untuk melihat info tentang teks tersebut. (hyperlink)`
+> Kamu bisa hover teks yang berwarna biru atau bisa disebut hyperlink untuk melihat informasi tentang teks tersebut (hanya untuk desktop). Tidak semua hyperlink ada informasinya.
 ## Tentang Bluby
 **Bluby** adalah Bot Economy Discord yang dibuat dengan framework `aoi.js`. Bluby berisikan command-command economy yang pokoknya seru abis! Tujuannya adalah mencari [Bcash](https://bluby.nwndev.repl.co 'Mata uang in-game Bluby') sebanyak-banyak nya dan berlomba-lomba siapa orang terkaya di Bluby! Jangan lupa hidupkan intent `message_content` di [Discord Developer Portal](https://discord.com/developers/applications) jika tidak ingin menggunakan slash command.
 ## Modul, Library, atau Framework yang digunakan
