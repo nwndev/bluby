@@ -1,16 +1,16 @@
 # 🔹 Bluby
 Bot Economy Discord yang kompleks dan seru hanya ada di Bluby! Dibuat dengan framework `aoi.js`.  
 > Kamu bisa hover teks yang berwarna biru atau bisa disebut hyperlink untuk melihat informasi tentang teks tersebut (hanya untuk desktop). Tidak semua hyperlink ada informasinya.
-## Tentang Bluby
+## 👋 Tentang Bluby
 **Bluby** adalah Bot Economy Discord yang dibuat dengan framework `aoi.js`. Bluby berisikan command-command economy yang pokoknya seru abis! Tujuannya adalah mencari [Bcash](https://bluby.nwndev.repl.co 'Mata uang in-game Bluby') sebanyak-banyak nya dan berlomba-lomba siapa orang terkaya di Bluby! Jangan lupa hidupkan intent `message_content` di [Discord Developer Portal](https://discord.com/developers/applications) jika tidak ingin menggunakan slash command.
-## Modul, Library, atau Framework yang digunakan
+## 📦 Modul, Library, atau Framework yang digunakan
 - [`aoi.js`](https://www.npmjs.com/package/aoi.js 'The most advanced string-based package to create a Discord Bot fast and powerful.') Karena mudah digunakan,
 - [`discord.js`](https://www.npmjs.com/package/discord.js 'A powerful Node.js module that allows you to easily interact with the Discord API.') Jika diperlukan,
 - Dan kamu juga bisa menggunakan modul [`express`](https://www.npmjs.com/package/express/ 'Fast, unopinionated, minimalist web framework for node.') jika diperlukan, biasanya digunakan untuk membuat web dengan menggunakan bahasa pemrograman [JavaScript](https://www.javascript.com/). Kebanyakan orang memakai modul ini untuk meng-host bot mereka dengan [uptimerobot.com](https://uptimerobot.com) jika menggunakan [Replit](https://replit.com).
 
 Node.js 16.6.0 atau yang lebih baru diperlukan untuk menginstal modul di atas.
 ### 📥 Instalasi Modul
-#### npm
+#### npm installation
 ```js
 npm init -y // membuat file package.json
 
@@ -18,7 +18,7 @@ npm install aoi.js@latest // menginstal modul aoi.js dengan versi terbaru, mungk
 npm install discord.js@latest // menginstal modul discord.js dengan versi terbaru, instal jika diperlukan.
 npm install express // menginstal modul express, instal jika diperlukan.
 ```
-#### yarn
+#### yarn installation
 ```js
 yarn init
 
